@@ -23,59 +23,61 @@ The program offers the following options in a loop until the user decides to exi
 
 ### **Sample Output:**
 
--------------
-   Banking
--------------
-1)Show Balance
-2)Make Deposit
-3)Withdraw Money
-4)Exit 
+markdown
+Copy code
+# Banking Application
 
-Enter your choice (1 to 4): 1 
+This is a simple banking application written in Python where users can perform the following actions:
+1. Show Balance
+2. Make Deposit
+3. Withdraw Money
+4. Exit
+
+## Sample Output
+
+Banking
+
+Show Balance
+Make Deposit
+Withdraw Money
+Exit
+Enter your choice (1 to 4): 1
 
 Your Balance is 0 rupee
 
+markdown
+Copy code
 
+## Getting Started
 
-## **Getting Started**
-
-### **Prerequisites**
+### Prerequisites
 - Python 3.x installed on your machine.
 
-### **Running the Program**
+### Running the Program
 
-1. Clone the repository:
-
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/banking-system.git
-   
-2.Navigate to the project directory:
+Navigate to the project directory:
 
 bash
 Copy code
 cd banking-system
-
-3. Run the program:
+Run the program:
 
 bash
 Copy code
 python banking_system.py
-
-
 Code Explanation
-
 check_balance(balance): Displays the current balance in rupees.
 deposit(): Takes user input for deposit and validates if the amount is positive.
 withdraw(balance): Allows the user to withdraw money, ensuring there is enough balance.
 main(): The main function that handles the menu and controls the flow of the program.
-
 Example Usage
-
 Start the program, and you'll see a menu with four options.
 Choose 1 to check the balance, 2 to deposit money, or 3 to withdraw.
 The program continues to prompt the user until option 4 (Exit) is chosen.
-
-
 Contributing
-
 Feel free to submit pull requests or open issues if you find any bugs or have suggestions for improvements.
+
+
